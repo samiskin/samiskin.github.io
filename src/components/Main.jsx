@@ -9,9 +9,9 @@ class Main extends React.Component {
       <div className={css.container}>
         <div className={css.name}> Shiranka Miskin </div>
         <div className={css.links}>
-          <div> <a href="https://github.com/samiskin">> Github</a> </div>
-          <div> <a href="https://ca.linkedin.com/in/shiranka-miskin-5a0b3092">> LinkedIn</a> </div>
-          <div> <Link to="resume" target="_blank">> Resume</Link> </div>
+          <div> <a target="_blank" href="https://github.com/samiskin">> Github</a> </div>
+          <div> <a target="_blank" href="https://ca.linkedin.com/in/shiranka-miskin-5a0b3092">> LinkedIn</a> </div>
+          <div> <Link target="_blank" to="resume" >> Resume</Link> </div>
           <div> <a href="mailto:shiranka.miskin@gmail.com">> E-mail</a> </div>
         </div>
       </div>
