@@ -11,7 +11,7 @@ class Main extends React.Component {
         <div className={css.links}>
           <div> <a target="_blank" href="https://github.com/samiskin">> Github</a> </div>
           <div> <a target="_blank" href="https://ca.linkedin.com/in/shiranka-miskin-5a0b3092">> LinkedIn</a> </div>
-          <div> <Link target="_blank" to="resume" >> Resume</Link> </div>
+          <div> <Link target="_blank" to="resume.pdf" >> Resume</Link> </div>
           <div> <a href="mailto:shiranka.miskin@gmail.com">> E-mail</a> </div>
         </div>
       </div>

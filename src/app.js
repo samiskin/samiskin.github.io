@@ -11,7 +11,7 @@ global.document.body.appendChild(reactHost);
 render((
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <Route path="resume" component={ResumeView}/>
+      <Route path="resume.pdf" component={ResumeView}/>
       <IndexRoute component={Main}/>
     </Route>
   </Router>
